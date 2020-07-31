@@ -1,1 +1,1 @@
-# Kinetic_Type_Summer1
+# Kinetic_Type_Summer
