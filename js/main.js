@@ -1,16 +1,18 @@
 (() => {
   let audio = document.querySelector('audio'),
-      playButton = document.querySelector('.controls button');
+      playButton = document.querySelector('.controls button'),
+      typeAnim = gsap.timeline({paused: true});
 
-  function playAudio() {
-    document.querySelectorAll('path').forEach(path => path.classList.add('text-anim'));
-    document.querySelector("#typelayout").classList.add('container-turn');
-    document.querySelector(".tony-vector").classList.add('zoom-tony');
+  typeAnim.to("#you", {opacity: 1, duration: 0.25})
+          .to("#wanna", {opacity: 1, duration: 0.3})
+          .to("#play", {opacity: 1, duration: 0.5})
+          .to("#typewrapper", {rotate: -90, scaleX: 1.5, scaleY: 1.5, opacity: 1});
 
+  function playAnimation() {
+    typeAnim.play();
     audio.play();
   }
 
-
-  playButton.addEventListener("click", playAudio);
+  playButton.addEventListener("click", playAnimation);
 
 })();

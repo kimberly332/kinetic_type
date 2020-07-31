@@ -45,7 +45,7 @@ svg { width: 100%; }
 
 /* #you, #wanna, #play, #rough, #ok, #say, #hello, #to, #my, #little, #friend { animation: fadewords 0.2s forwards; } */
 
-.text-anim { animation: fadewords 0.2s forwards; }
+/* .text-anim { animation: fadewords 0.2s forwards; }
 .container-turn { animation: turncontainer 0.2s linear 0.5s forwards, turnagain 0.3s linear 1s forwards, resetcontainer 1s linear 4s forwards; }
 .zoom-tony { animation: zoomtony 2.5s forwards; }
 
@@ -58,7 +58,7 @@ svg { width: 100%; }
 #hello { animation-delay: 3s; }
 #to, #my { animation-delay: 3.6s; }
 #little { animation-delay: 4s; }
-#friend { animation-delay: 4.2s; }
+#friend { animation-delay: 4.2s; } */
 
 /* #layout {
   animation: turncontainer 0.2s linear 1s forwards, turnagain 0.3s linear 1.5s forwards;
@@ -70,12 +70,10 @@ svg { width: 100%; }
   top: 139px;
   left: 255px;
   height: 300px;
-
   opacity: 0;
-
-  animation-delay: 2s;
 }
 
+/*
 @keyframes fadewords {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -103,4 +101,4 @@ svg { width: 100%; }
 @keyframes resetcontainer {
   0% { transform: rotate(0deg) scale(1.4) translate(-13%, 11%); }
   100% { transform: scale(1) translate(0, 0); }
-}
+} */
