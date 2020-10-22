@@ -4,7 +4,7 @@ Kinetic typography comes in many forms. The creations are a feast for the eyes, 
 
 ## Description
 
-This is a kinetic typography animations practice based on the song Clara Mae - Unmiss You.
+This is a kinetic typography animations practice based on a quote from the movie.
 
 ## Built With
 
